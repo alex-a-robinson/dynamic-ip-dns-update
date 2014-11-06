@@ -1,0 +1,6 @@
+loggingPath = '/var/log/dns-update.log'
+ipCheckUrl = 'http://ident.me'
+zone = dict(
+    path = '/etc/bind/zones/master/db.example.com',
+    identifyer = ';update'
+)
